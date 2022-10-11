@@ -15,6 +15,17 @@ namespace WebApi.Controllers
            _movieService = movieService;
         }
 
+
+
+        /// <summary>
+        /// Film Listelerini sayfalama yaparak sorgulamanıza yarar
+        /// </summary>
+        /// <remarks>
+        /// Film Listesini sorgulayabilirsiniz
+        /// </remarks>
+        /// <param name="pageSize">100</param>
+        /// <param name="pageNumber">1</param>
+      
         [HttpGet("GetList")]
         public IActionResult GetList(int pageSize , int pageNumber)
         {         
@@ -29,6 +40,14 @@ namespace WebApi.Controllers
 
         }
 
+
+        /// <summary>
+        /// film id gönderip film hakkında tüm detaylara ve sorguladıgınız filmin ortalama puanına , eklediğiniz notlara ulaşabileceğiniz endpoint
+        /// </summary>
+        /// <remarks>
+        /// Film detaylarını sorgulayabilirsiniz
+        /// </remarks>
+        /// <param name="movieId">2</param>
         [HttpGet("GetInfo")]
         public IActionResult GetInfo(long movieId)
         {
@@ -43,6 +62,14 @@ namespace WebApi.Controllers
 
         }
 
+
+        /// <summary>
+        /// Mail Adresinize size önerebileceğimiz film listesini gönderir
+        /// </summary>
+        /// <remarks>
+        /// Öneri filmleri mail oalrak alma
+        /// </remarks>
+        /// <param name="email">info@myemail.com</param>
         [HttpGet("MovieDiscover")]
         public IActionResult MovieDiscover(string email)
         {

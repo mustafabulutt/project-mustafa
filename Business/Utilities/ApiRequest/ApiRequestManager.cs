@@ -1,4 +1,6 @@
 ﻿using Business.Aspects.Secured;
+using Core.Aspects;
+using Core.Aspects.Caching;
 using Core.Utilities.Result.Abstract;
 using Core.Utilities.Result.Concrete;
 using DataAccess.Repositories.MovieRepository;
@@ -29,8 +31,8 @@ namespace Business.Utilities.ApiRequest
             _moviedal = movieDal;
         }
 
-
-        [SecuredAspect()]
+        [TransactionAspect]
+        [RemoveCacheAspect("IMovieService.GetList")]
         [assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
         public void GetMovie()
         {

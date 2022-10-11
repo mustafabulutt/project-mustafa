@@ -461,3 +461,4 @@ C:\GithubRepo\project-mustafa\WebApi\obj\Debug\net6.0\refint\WebApi.dll
 C:\GithubRepo\project-mustafa\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\GithubRepo\project-mustafa\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\GithubRepo\project-mustafa\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\GithubRepo\project-mustafa\WebApi\bin\Debug\net6.0\Swagger.xml

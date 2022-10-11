@@ -17,6 +17,14 @@ namespace WebApi.Controllers
         }
 
 
+
+        /// <summary>
+        /// Film id verilen filme verdiğimiz puanı getirir
+        /// </summary>
+        /// <remarks>
+        /// Filme verdiğimiz notu getirir
+        /// </remarks>
+        /// <param name="movieId">1</param>
         [HttpGet("GetMovieMyScore")]
         public IActionResult GetMovieMyScore(int movieId)
         {
@@ -31,6 +39,14 @@ namespace WebApi.Controllers
 
         }
 
+
+        /// <summary>
+        /// Film id verilen filmin ortalama puanını hesaplar
+        /// </summary>
+        /// <remarks>
+        /// Filmin ortalama puanını getirir
+        /// </remarks>
+        /// <param name="movieId">1</param>
         [HttpGet("GetMovieMeanScore")]
         public IActionResult GetMovieMeanScore(int movieId)
         {
@@ -45,6 +61,13 @@ namespace WebApi.Controllers
 
         }
 
+
+        /// <summary>
+        /// Filme Puan Verir 1 en düşük 10 en yüksek olacak şekilde
+        /// </summary>
+        /// <remarks>
+        /// Filme puan verir
+        /// </remarks>
         [HttpPost("AddMovieScore")]
         public IActionResult AddMovieScore(MovieScore score)
         {

@@ -18,6 +18,15 @@ namespace WebApi.Controllers
             _movieNoteService = movieNoteService;
         }
 
+
+
+        /// <summary>
+        /// Film id gönderdiğiniz filme eklediğiniz notu getirir
+        /// </summary>
+        /// <remarks>
+        /// Kullanıcının filme eklediği notu getirir
+        /// </remarks>
+        /// <param name="movieId">1</param>
         [HttpGet("GetMyNote")]
         public IActionResult GetMyNote(int movieId)
         {
@@ -30,6 +39,14 @@ namespace WebApi.Controllers
 
         }
 
+
+        /// <summary>
+        /// Filme kişisel notunuzu ekler
+        /// </summary>
+        /// <remarks>
+        /// Filme not ekler
+        /// </remarks>
+        
         [HttpPost("GetMyNote")]
         public IActionResult AddMovieNote(MovieNote note)
         {

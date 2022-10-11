@@ -1,6 +1,7 @@
 ﻿using Business.Aspects.Secured;
 using Business.Repositories.MovieNoteRepository;
 using Business.Repositories.MovieScoreRepository;
+using Core.Aspects.Caching;
 using Core.Contans;
 using Core.Utilities.Result.Abstract;
 using Core.Utilities.Result.Concrete;
@@ -37,6 +38,7 @@ namespace Business.Repositories.MovieRepository
         }
 
         [SecuredAspect()]
+        [CacheAspect(60)]
         public IDataResult<List<Movie>> GetList(int getCount,int pageNumber)
         {
 

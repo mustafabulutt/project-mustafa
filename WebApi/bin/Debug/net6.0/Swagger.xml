@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.MovieController.GetList(System.Int32,System.Int32)">
+            <summary>
+            Film Listelerini sayfalama yaparak sorgulamanıza yarar
+            </summary>
+            <remarks>
+            Film Listesini sorgulayabilirsiniz
+            </remarks>
+            <param name="pageSize">100</param>
+            <param name="pageNumber">1</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieController.GetInfo(System.Int64)">
+            <summary>
+            film id gönderip film hakkında tüm detaylara ve sorguladıgınız filmin ortalama puanına , eklediğiniz notlara ulaşabileceğiniz endpoint
+            </summary>
+            <remarks>
+            Film detaylarını sorgulayabilirsiniz
+            </remarks>
+            <param name="movieId">2</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieController.MovieDiscover(System.String)">
+            <summary>
+            Mail Adresinize size önerebileceğimiz film listesini gönderir
+            </summary>
+            <remarks>
+            Öneri filmleri mail oalrak alma
+            </remarks>
+            <param name="email">info@myemail.com</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieNoteController.GetMyNote(System.Int32)">
+            <summary>
+            Film id gönderdiğiniz filme eklediğiniz notu getirir
+            </summary>
+            <remarks>
+            Kullanıcının filme eklediği notu getirir
+            </remarks>
+            <param name="movieId">1</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieNoteController.AddMovieNote(Entities.Concrete.MovieNote)">
+            <summary>
+            Filme kişisel notunuzu ekler
+            </summary>
+            <remarks>
+            Filme not ekler
+            </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.MovieScoreController.GetMovieMyScore(System.Int32)">
+            <summary>
+            Film id verilen filme verdiğimiz puanı getirir
+            </summary>
+            <remarks>
+            Filme verdiğimiz notu getirir
+            </remarks>
+            <param name="movieId">1</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieScoreController.GetMovieMeanScore(System.Int32)">
+            <summary>
+            Film id verilen filmin ortalama puanını hesaplar
+            </summary>
+            <remarks>
+            Filmin ortalama puanını getirir
+            </remarks>
+            <param name="movieId">1</param>
+        </member>
+        <member name="M:WebApi.Controllers.MovieScoreController.AddMovieScore(Entities.Concrete.MovieScore)">
+            <summary>
+            Filme Puan Verir 1 en düşük 10 en yüksek olacak şekilde
+            </summary>
+            <remarks>
+            Filme puan verir
+            </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.ServiceController.StartJobService">
+            <summary>
+            Film listelerini periyodik olarak ve manuel olarak uzak sunucudan çekmek için kullanılır
+            </summary>
+            <remarks>
+            Film Listelerini uzak sunucudan çeker.
+            </remarks>
+        </member>
+    </members>
+</doc>

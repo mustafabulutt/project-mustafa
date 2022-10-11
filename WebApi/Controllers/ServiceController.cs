@@ -16,6 +16,14 @@ namespace WebApi.Controllers
             _iApiRequest = apiRequest;
         }
 
+
+        /// <summary>
+        /// Film listelerini periyodik olarak ve manuel olarak uzak sunucudan çekmek için kullanılır
+        /// </summary>
+        /// <remarks>
+        /// Film Listelerini uzak sunucudan çeker.
+        /// </remarks>
+      
         [HttpGet("StartJobService")]
         public IActionResult StartJobService()
         {

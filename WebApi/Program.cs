@@ -13,6 +13,7 @@ using Hangfire.LiteDB;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -84,7 +85,12 @@ builder.Services.AddDependencyResolvers(new ICoreModule[]
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB APÝ", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB API", Version = "v1" ,
+        Description = "Bilgilendirme :  Her Sabah Saat 10:00'da listelerimiz güncellenmektedir. manuel olarak job servis kýsmýndan istek göndererek güncelleyebilirsiniz.",
+
+
+
+    });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description =
@@ -113,7 +119,10 @@ builder.Services.AddSwaggerGen(c =>
                            new List<string>()
                        }
                    });
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, "Swagger.xml");
 
+    
+    c.IncludeXmlComments(xmlPath);
 
 });
 
