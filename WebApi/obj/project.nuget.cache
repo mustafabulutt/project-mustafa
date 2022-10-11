@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cj5rxSfN/MgESylQFWSRimaP8epgNSJlV8UEUvMCKkzqo4zhkH8i+bqdEfM4p+nqGFomYxzFeNeJq8h3bzhtUw==",
+  "dgSpecHash": "B8Jll4fmrK/zc7/A2Zg6y3ymaN2l8ILOvzLeU8SWU2Y8HmpADnlUa3z1Y19ovcURPogIZ2m8OYU1hd1RZtRQdw==",
   "success": true,
   "projectFilePath": "C:\\GithubRepo\\project-mustafa\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",

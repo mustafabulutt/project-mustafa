@@ -134,6 +134,8 @@ app.ConfigureCustomExceptionMiddleware();
 app.UseCors("AllowOrigin");
 app.UseHangfireDashboard();
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseDefaultFiles();
 
 app.UseAuthentication();
 
