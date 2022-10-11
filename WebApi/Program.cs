@@ -114,6 +114,7 @@ builder.Services.AddSwaggerGen(c =>
                        }
                    });
 
+
 });
 
 
@@ -128,7 +129,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web API"); });
+    app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web API");
+        c.RoutePrefix = string.Empty;
+    });
+    
+
 }
 app.ConfigureCustomExceptionMiddleware();
 app.UseCors("AllowOrigin");
@@ -140,5 +145,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
 
 app.Run();

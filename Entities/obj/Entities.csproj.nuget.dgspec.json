@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\Entities.csproj": {}
+    "C:\\GithubRepo\\project-mustafa\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\Entities.csproj": {
+    "C:\\GithubRepo\\project-mustafa\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\GithubRepo\\project-mustafa\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\Entities.csproj",
+        "projectPath": "C:\\GithubRepo\\project-mustafa\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\obj\\",
+        "outputPath": "C:\\GithubRepo\\project-mustafa\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

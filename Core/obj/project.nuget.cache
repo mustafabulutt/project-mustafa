@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DibTmAjcxfrU30W8Tr/+B7JiWnQ2sgZYYwI6w2+41tgw63ZWklYAnS57/zF/BhW+Qfml59IFy11suPOtxYme7Q==",
+  "dgSpecHash": "quAvCg37v4U4BDnrwFDN8+f1mUTUx1UOvrqpcxCB5mfdw44Uw6gsmbnPVZpwsbJ8ibMWWWIjzDFDjoE1dXFyTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Core\\Core.csproj",
+  "projectFilePath": "C:\\GithubRepo\\project-mustafa\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mustafa\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

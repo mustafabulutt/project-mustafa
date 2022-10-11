@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vok+Bzts0sXNcoeegDNvpUH7uLPbwxWVCKFGI+rtx46Ff3fgiZtJySVv8VbNVjmNP7BO6SC8CCigiH6HUhJaDA==",
+  "dgSpecHash": "Cvz0PA2QglKMAJjet7wG93GEm0qAYw+A+zJwaTl8NVMpfLp+bwe4qF72FqGRuIdUA9x8tPXZ73A8GBaCuT2gFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\GithubRepo\\project-mustafa\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
