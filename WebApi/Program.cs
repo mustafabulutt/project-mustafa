@@ -86,7 +86,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "WEB API", Version = "v1" ,
-        Description = "Bilgilendirme :  Her Sabah Saat 10:00'da listelerimiz güncellenmektedir. manuel olarak job servis kýsmýndan istek göndererek güncelleyebilirsiniz.",
+        Description = "Bilgilendirme :  Her Sabah Saat 10:00'da listelerimiz guncellenmektedir. manuel olarak job servis kismindan istek gondererek guncelleyebilirsiniz.",
 
 
 
