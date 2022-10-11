@@ -58,9 +58,8 @@ namespace Business.Concrete
                       
 
                 IResult result = BusinessRules.Run(
-                CheckIFEmailExists(authDto.Email),
-                CheckIfImageSizeIsLessThanOneMb(authDto.Image.Length),
-                CheckIfImageExtensionsAllow(authDto.Image.FileName)
+                CheckIFEmailExists(authDto.Email)
+               
                 );
 
             if (!result.Success)

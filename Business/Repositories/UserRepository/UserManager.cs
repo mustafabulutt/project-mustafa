@@ -36,16 +36,15 @@ namespace Business.Concrete
         //[SecuredAspect("Add,Admin")]
         public void Add(RegisterAuthDto user)
         {
-            string fileName = _fileService.FileSaveToServer("./Content/image/", user.Image);    
 
-            var addUser = CreateUser(user,fileName);
+            var addUser = CreateUser(user);
            
             _userDal.Add(addUser);
         }
 
 
 
-        private User CreateUser(RegisterAuthDto registerDto , string fileName)
+        private User CreateUser(RegisterAuthDto registerDto )
         {
             byte[] PasswordHash, PasswordSalt;
             HashingHelper.CreatePassword(registerDto.Password, out PasswordHash, out PasswordSalt);
@@ -56,7 +55,6 @@ namespace Business.Concrete
             user.Name = registerDto.Name;
             user.PasswordHash = PasswordHash;
             user.PasswordSalt = PasswordSalt;
-            user.ImageUrl = fileName;
             return user;
 
         }

@@ -15,7 +15,6 @@ namespace Business.Repositories.UserRepository.Validation.FluentValidation
             RuleFor(p => p.Name).NotEmpty().WithMessage("Kullanıcı Adı boş Olamaz");
             RuleFor(p => p.Email).NotEmpty().WithMessage("Email Boş Olamaz");
             RuleFor(p => p.Email).EmailAddress().WithMessage("Geçerli Bir Mail Adresi Girin");
-            RuleFor(p => p.ImageUrl).NotEmpty().WithMessage("Image url boş olamaz");
            
         }
     }
