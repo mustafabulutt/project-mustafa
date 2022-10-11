@@ -40,8 +40,8 @@ namespace Business.Utilities.ApiRequest
            
             try
             {
-                //string downloadDate = $"{DateTime.Now.Day.ToString("00")}_{DateTime.Now.Month.ToString("00")}_{DateTime.Now.Year.ToString("0000")}";
-                string downloadDate = "09_10_2022";
+                string downloadDate = $"{DateTime.Now.Day.ToString("00")}_{DateTime.Now.Month.ToString("00")}_{DateTime.Now.Year.ToString("0000")}";
+                //string downloadDate = "09_10_2022";
 
 
                 string downloadUrl = $"http://files.tmdb.org/p/exports/movie_ids_{downloadDate}.json.gz";

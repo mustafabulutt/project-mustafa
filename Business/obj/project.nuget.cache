@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19JdC+pWlB/Wlvbm7cEwheaz6QGOdmDO9f+Co74Ev8JscLfzCFCmrAni/a/OTP5oZsVYWQHmZX9w9s4ye3quGQ==",
+  "dgSpecHash": "u/E3rrGz+I7Iom5cEGY6Y/El8/OZmasSCW8elFQFkqHWfhQ+z4I0QH9GcjT9Z00Svsu+kEELt3GDruzciXFULg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\MyBackend\\Business\\Business.csproj",
+  "projectFilePath": "C:\\GithubRepo\\project-mustafa\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mustafa\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
