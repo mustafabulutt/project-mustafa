@@ -42,7 +42,7 @@ namespace Business.Utilities.ApiRequest
            
             try
             {
-                string downloadDate = $"{DateTime.Now.ToString("MM_DD_YYYY")}
+                string downloadDate = DateTime.Now.ToString("MM_DD_YYYY");
                 //string downloadDate = "09_10_2022";
 
 
